@@ -11,7 +11,7 @@ if (theme == null) {
 for (var i = 0; themeDots.length > i; i++) {
     themeDots[i].addEventListener('click', function () {
         var mode = this.dataset.modeTheme;
-        console.log(mode, 'clicked theme');
+        console.log(mode, 'theme clicked.');
         setTheme(mode)
     })
 }
