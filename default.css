@@ -6,6 +6,7 @@
 
     --mainText:black;
     --secondaryText:#4b5156;
+    --linkText:#17a2b8;
 
     --themeDotBorder:#24292e;
 
@@ -37,7 +38,7 @@ p, li, span, label, input, textarea{
 
 a{
     text-decoration: none;
-    color: #17a2b8;
+    color: var(--linkText);
 }
 
 ul{
@@ -273,9 +274,21 @@ h6 { font-size: 16px; }
     background-color: var(--previewShadow);
 }
 
+.social-div{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.social-icon{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
 .social-links{
     display: grid;
     align-content: center;
+    align-items: center;
 }
 
 #social_img
